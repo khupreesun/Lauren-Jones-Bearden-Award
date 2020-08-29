@@ -1,0 +1,119 @@
+.main-body > .col-1 > .heading {
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    font-size: 2.3em;
+    padding-left: 50px;
+    padding-top: 80px;
+    font-weight: 100;
+    letter-spacing: .5px;
+    line-height: 50px;
+}
+
+.main-body {
+    display: flex;
+    background-color: rgb(70, 72, 83);
+    height: 650px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: inset -400px -300px 500px 200px rgba(0,0,0,0.58)
+}
+
+.main-body > .col-1 > .subheading {
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(207, 207, 207);
+    font-size: 1.9em;
+    padding-left: 50px;
+    padding-top: 30px;
+    font-weight: 400;
+    letter-spacing: -0.5px;
+    line-height: 50px;
+}
+
+.home-btns {
+    display: flex;
+    align-content: center;
+}
+
+.home-btns > .green-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing: -0.8px;
+    background-color: rgb(49, 170, 100);
+    margin-top: 30px;
+    margin-left: 50px;
+    font-size: 2em;
+    padding: 14px 18px 14px 18px;
+    border-radius: 4px;
+}
+
+.home-btns > .learn-btn {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    letter-spacing: -0.8px;
+    background-color: rgb(17, 17, 17);
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 230px;
+    font-size: 2em;
+    padding: 14px 18px 14px 18px;
+    border-radius: 4px;
+    color: white;
+}
+
+.ex-img {
+    margin-top: 55px;
+    margin-bottom: -115px;
+    margin-right: -100px;
+}
+
+.ex-img > .img-words {
+    color: white;
+    display: flex;
+    margin-bottom: -25px;
+}
+
+.ex-img > .img-words p{
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+
+.ex-img > .img-words h1{
+    opacity: 0%;
+}
+
+.ex-img img {
+    box-shadow: -9px -9px 100px rgba(17, 17, 17, 0.479);
+}
+
+.bottom-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color:  rgb(62, 63, 70);
+}
+.bottom-boxes > .box{
+    display: flex;
+    align-items: baseline;
+    border: 1.5px solid white;
+    justify-content: center;
+}
+
+.bottom-boxes > .box p{
+    color: white;
+    font-size: 1.5em;
+    font-weight: lighter;
+}
+
+.bottom-boxes > .box h1{
+    color: white;
+    font-weight: 900;
+    letter-spacing: -1.5px;
+}
+
+.dark {
+    background-color: rgb(29, 29, 29);
+    height: 200px;
+}
+
